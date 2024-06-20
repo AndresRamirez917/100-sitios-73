@@ -1,0 +1,27 @@
+//mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            margin: 2rem 0;
+        }
+        ul {
+            display: block;
+            text-align: center;
+            li {
+                text-align: center;
+            }
+        }
+        .container {
+            display: block;
+        }
+    }
+    //showcase
+    #showcase {
+        .showcase-content {
+            text-align: center;
+        }
+    }
+}

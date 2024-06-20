@@ -97,6 +97,18 @@ img {
     max-width: 100%;
 }
 
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: yellow;
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
+}
+
 //mainheader
 #mainheader {
     background: url("/images/showcase.jpg");
@@ -104,7 +116,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 3rem;
-    height: 100vh;
+
     .navbar {
         width: 80%;
         margin: 0 auto;
@@ -194,6 +206,10 @@ img {
 #contact {
     width: 80%;
     margin: 0 auto;
+    p {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
     form {
         .flex-box-1 {
             flex: 1;
