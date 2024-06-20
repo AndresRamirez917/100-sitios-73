@@ -24,8 +24,10 @@ ul {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #fff;
+    margin-bottom: 2rem;
+    font-weight: 400;
 }
 
 .subtitle {
@@ -45,7 +47,7 @@ ul {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 30px;
-    overflow: auto;
+    // overflow: auto;
 }
 
 .btn {
@@ -60,12 +62,14 @@ ul {
 }
 
 .btn:hover {
-    border: 1px solid #fff;
+    border: 1px solid yellow;
     background: #ffffff00;
+    color: yellow;
 }
 
 form {
     border: 1px solid #000;
+    padding: 50px;
     .form-group {
         margin-bottom: 1rem;
     }
@@ -76,12 +80,125 @@ form {
         margin-bottom: 1rem;
     }
     .btn {
-        width: 100%;
+        width: fit-content;
+
     }
 }
 
 .box {
     border: 1px solid #000;
+    margin-bottom: 10px;
+    img {
+        width: 100%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+//mainheader
+#mainheader {
+    background: url("/images/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3rem;
+    height: 100vh;
+    .navbar {
+        width: 80%;
+        margin: 0 auto;
+        .logo {
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        ul {
+            margin-top: 2rem;
+            display: flex;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }
+    //showcase
+    #showcase {
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        .showcase-content {
+            margin-top: 10rem;
+        }
+    }
+}
+
+//portfolio
+#portfolio {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    p {
+        margin-bottom: 3rem;
+        text-align: center;
+        line-height: 30px;
+    }
+    .porfolio-flex {
+        display: flex;
+        gap: 30px;
+        .box-text {
+            padding: 10px;
+            text-align: center;
+            h2 {
+                font-size: 1.2rem;
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+            p {
+                font-size: .7rem;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+//about
+#about {
+    background: url("/images/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    .about-flex {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        .about-text {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-top: 9rem;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+            margin-top: 5rem;
+        }
+    }
+}
+
+//contact
+#contact {
+    width: 80%;
+    margin: 0 auto;
+    form {
+        .flex-box-1 {
+            flex: 1;
+        }
+    }
 }
 
 //footer
