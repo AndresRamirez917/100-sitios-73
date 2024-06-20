@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-stack:"Montserrat", sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 3rem 0;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.btn {
+    color: #fff;
+    background: yellow;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #fff;
+    background: #ffffff00;
+}
+
+form {
+    border: 1px solid #000;
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+.box {
+    border: 1px solid #000;
+}
+
+//footer
+#footer {
+    text-align: center;
+    padding: 3rem 0;
+
+}
