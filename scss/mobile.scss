@@ -25,3 +25,20 @@
         }
     }
 }
+
+//portfolio
+#portfolio {
+    .porfolio-flex {
+        display: block;
+    }
+}
+
+//about
+#about {
+    .about-flex {
+        display: block;
+        iframe {
+            width: 100%;
+        }
+    }
+}
